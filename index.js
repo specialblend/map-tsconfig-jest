@@ -1,4 +1,4 @@
-const { compose, concat, head, invertObj, replace } = require('ramda');
+const { compose, concat, head, invertObj, map, replace } = require('ramda');
 
 const mapAlias = replace(/\*/, '(.*)');
 const mapTarget = compose(concat('<rootDir>'), replace(/\*/, '$1'), head);
