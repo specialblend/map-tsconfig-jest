@@ -1,0 +1,27 @@
+{
+  "name": "@specialblend/map-tsconfig-jest",
+  "version": "0.0.0",
+  "description": "utility for mapping tsconfig paths to jest module mapper names",
+  "main": "index.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specialblend/map-tsconfig-jest.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "jest"
+  ],
+  "author": "cj@specialblend.net",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/specialblend/map-tsconfig-jest/issues"
+  },
+  "homepage": "https://github.com/specialblend/map-tsconfig-jest#readme",
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
